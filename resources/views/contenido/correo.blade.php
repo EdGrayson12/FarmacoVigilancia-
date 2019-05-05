@@ -1,18 +1,19 @@
-    @extends('principal')
-    @section('contenido')
-        <template v-if="menu==0">
-             <H1>Escritorio</H1>
-        </template>
+@section('correo')
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Laravel correo</title>
 
-        <template v-if="menu==1">
-        <example-component></example-component>
-          </template>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <template v-if="menu==2">
-            <h1>Contenido del menú 2</h1>
-        </template>
-
-        <div v-if="menu==3" class="container">
+  </head>
+  <body>
+    <div class="container">
       <div class="row" style="margin-top:120px;">
         <div class="col-md-offset-3 col-md-6">
 
@@ -53,40 +54,6 @@
       crossorigin="anonymous">
     </script>
 
-        <template v-if="menu==4">
-            <h1>Contenido del menú 4</h1>
-        </template>
-
-        <template v-if="menu==5">
-            <h1>Contenido del menú 5</h1>
-        </template>
-
-        <template v-if="menu==6">
-            <h1>Contenido del menú 6</h1>
-        </template>
-
-        <template v-if="menu==7">
-            <h1>Contenido del menú 7</h1>
-        </template>
-
-        <template v-if="menu==8">
-            <h1>Contenido del menú 8</h1>
-        </template>
-
-        <template v-if="menu==9">
-            <h1>Contenido del menú 9</h1>
-        </template>
-
-        <template v-if="menu==10">
-            <h1>Contenido del menú 10</h1>
-        </template>
-
-        <template v-if="menu==11">
-            <h1>Contenido del menú 11</h1>
-        </template>
-
-        <template v-if="menu==12">
-            <h1>Contenido del menú 12</h1>
-        </template>
-
-    @endsection
+  </body>
+</html>
+@endsection
